@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882315129121",
+    "project_id": "app-trac-nghiem-cc1de",
+    "storage_bucket": "app-trac-nghiem-cc1de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882315129121:android:ae98429548a9c0d873ce60",
+        "android_client_info": {
+          "package_name": "com.btl.tracnghiem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882315129121-7l93v6s43l7p5is6fre6n1mtpi83knei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.btl.tracnghiem",
+            "certificate_hash": "741a4cd76d452d4e3aae34f564b6e2d628cb32b7"
+          }
+        },
+        {
+          "client_id": "882315129121-oer5v6km1fvjqf3pns3p7fubfd3k1dsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBANpU6yoowwMYMZLQXcHxeKof1_qQlfqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882315129121-oer5v6km1fvjqf3pns3p7fubfd3k1dsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

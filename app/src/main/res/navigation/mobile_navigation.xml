@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.btl.tracnghiem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_math2"
+            app:destination="@id/nav_math" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_chemistry"
+            app:destination="@id/nav_chemistry" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_physical"
+            app:destination="@id/nav_physical" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_login"
+            app:destination="@id/nav_login" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_math"
+        android:name="com.btl.tracnghiem.ui.Subject.MathFragment"
+        android:label="@string/menu_math"
+        tools:layout="@layout/fragment_math" >
+
+        <action
+            android:id="@+id/action_nav_math_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_physical"
+        android:name="com.btl.tracnghiem.ui.Subject.PysicalFragment"
+        android:label="@string/menu_physics"
+        tools:layout="@layout/fragment_pysical" >
+        <action
+            android:id="@+id/action_nav_physical_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_chemistry"
+        android:name="com.btl.tracnghiem.ui.Subject.chemistryFragment"
+        android:label="@string/menu_chemistry"
+        tools:layout="@layout/fragment_chemistry" >
+        <action
+            android:id="@+id/action_nav_chemistry_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_login"
+        android:name="com.btl.tracnghiem.LoginActivity"
+        android:label="@string/menu_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.btl.tracnghiem.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_nav_profile_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>

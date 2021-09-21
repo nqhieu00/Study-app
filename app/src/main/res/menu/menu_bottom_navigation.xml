@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/nav">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_math"
+            android:icon="@drawable/ic_math"
+            android:title="@string/menu_math" />
+        <item
+            android:id="@+id/nav_physical"
+            android:icon="@drawable/ic_physics_icon"
+            android:title="@string/menu_physics" />
+        <item
+            android:id="@+id/nav_chemistry"
+            android:icon="@drawable/ic_chemistry"
+            android:title="@string/menu_chemistry" />
+    </group>
+</menu>
